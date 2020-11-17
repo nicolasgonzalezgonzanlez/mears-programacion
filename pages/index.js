@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import { Category } from 'components/home/index'
 import { Menu } from 'components/header/index'
+import { Parallax } from 'components/parallax/index'
+import { Footer } from 'components/footer/index'
 
 export default function Home() {
   return (
@@ -14,7 +16,9 @@ export default function Home() {
         />
       </Head>
       <Menu />
+      <Parallax />
       <Category />
+      <Footer />
     </>
   )
 }
