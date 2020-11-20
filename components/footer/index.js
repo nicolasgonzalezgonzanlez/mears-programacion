@@ -1,4 +1,11 @@
-import { FooterComponent, Container, Content, Section, Link } from './styles'
+import {
+  FooterComponent,
+  Container,
+  Content,
+  Section,
+  Link,
+  Copyright,
+} from './styles'
 import { FiGithub } from 'react-icons/fi'
 import { AiFillLinkedin } from 'react-icons/ai'
 import { RiPagesLine } from 'react-icons/ri'
@@ -19,17 +26,16 @@ export const Footer = () => (
       </Link>
     </Section>
     <Container>
-      <Content right>
+      <Content>
         Sobre mí <br />
         <br />
         Apasionado desarrollador frontend, responsable, creativo y dinámico, con
         facilidad de adaptación y capacidad de trabajar en equipo. Busco
         aprender constantemente y resolver desafíos cada vez más complejos.
       </Content>
-      <Content left>
-        REACT | REACT NATIVE | REDUX | NEXT | NODE/EXPRESS | JEST | MONGODB VUE
-        <br />| VUEX | REDUX | NUXT | NODE/EXPRESS | MONGODB
-      </Content>
     </Container>
+    <Copyright>
+      <Content>© Nicolas Gonzalez</Content>
+    </Copyright>
   </FooterComponent>
 )

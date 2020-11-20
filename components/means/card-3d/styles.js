@@ -13,11 +13,14 @@ export const Image = styled.img`
   transition: all 0.75s ease-out;
 `
 export const Card = styled.div`
-  @media (max-width: ${breakpoints.sm}) {
+  @media ${breakpoints.xs}, ${breakpoints.sm} {
     width: 80%;
   }
-  @media (min-width: ${breakpoints.md}) {
+  @media ${breakpoints.md}, ${breakpoints.xl} {
     width: 30%;
+  }
+  @media ${breakpoints.lg} {
+    width: 26%;
   }
   background: white;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
@@ -56,28 +59,29 @@ export const Circle = styled.div`
   position: absolute;
   border-radius: 50%;
   z-index: 1;
-  @media (max-width: ${breakpoints.sm}) {
+  @media ${breakpoints.xs}, ${breakpoints.sm} {
     width: 50%;
-    height: 25%;
+    height: 20%;
   }
-  @media (min-width: ${breakpoints.md}) {
-    width: 15rem;
-    height: 15rem;
+  @media ${breakpoints.md}, ${breakpoints.lg}, ${breakpoints.xl} {
+    width: 15vw;
+    height: 25vh;
   }
 `
 export const ControlButtons = styled.div`
   display: flex;
 
-  @media (max-width: ${breakpoints.sm}) {
+  @media ${breakpoints.xs}, ${breakpoints.sm} {
     flex-direction: column;
   }
-  @media (min-width: ${breakpoints.md}) {
+  @media ${breakpoints.md}, ${breakpoints.lg}, ${breakpoints.xl} {
     justify-content: space-between;
     transition: all 0.75s ease-out;
   }
 `
 export const ButtonSize = styled.button`
-  padding: 0.5rem 2rem;
+  width: 20%;
+  height: 30px;
   background: none;
   border: none;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
@@ -89,7 +93,7 @@ export const ButtonSize = styled.button`
     background: #585858;
     color: white;
   }
-  @media (max-width: ${breakpoints.sm}) {
+  @media ${breakpoints.xs}, ${breakpoints.sm} {
     margin: 10px;
   }
 `

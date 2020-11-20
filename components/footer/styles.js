@@ -1,6 +1,4 @@
-import styled, { css } from 'styled-components'
-
-import { breakpoints } from 'global-css/brackpoints'
+import styled from 'styled-components'
 
 export const Link = styled.a`
   padding: 0px 20px 0px 20px;
@@ -8,9 +6,7 @@ export const Link = styled.a`
 `
 export const FooterComponent = styled.footer`
   background: #6165d7;
-  bottom: 0;
   color: white;
-  width: 100%;
   min-height: 200px;
 `
 export const Section = styled.div`
@@ -19,32 +15,15 @@ export const Section = styled.div`
   padding: 20px;
 `
 export const Container = styled.div`
-  @media ${breakpoints.xs} {
-    height: 30vh;
-  }
-  @media ${breakpoints.sm} {
-    height: 73vh;
-  }
-  @media (min-width: ${breakpoints.md}) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0px 20px 0px 20px;
-    align-items: center;
-  }
+  max-height: 80%;
 `
 export const Content = styled.p`
-  ${({ left }) =>
-    left &&
-    css`
-       {
-        text-align: end;
-      }
-    `}
-  ${({ right }) =>
-    right &&
-    css`
-       {
-        text-align: inherit;
-      }
-    `}
+  text-align: center;
+`
+export const Copyright = styled.div`
+  background: #0c2340;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `

@@ -5,15 +5,17 @@ import {
   Subtitle,
   Button,
   Image,
+  TextGray,
 } from './styles'
 
 export const Parallax = () => (
   <Container>
     <SubContainer>
+      <TextGray>Programador Full stack javascript</TextGray>
       <Title>ENCONTRA RECURSOS INTERESANTES</Title>
       <Subtitle>
-        Esta pagina se hizo para poder mostrar mis habilidades de programacion y
-        diseño
+        El objetivo de esta página es brindar recursos intresantes que puedan
+        ser reutilizados y mostrar mis habilidades como frontend.
       </Subtitle>
       <Button>Sobre mi</Button>
     </SubContainer>

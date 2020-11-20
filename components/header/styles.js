@@ -23,4 +23,10 @@ export const Title = styled.p`
 export const Link = styled.a`
   text-decoration: none;
   color: #9097a0;
+  margin-left: 20px;
+`
+export const Section = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 `
