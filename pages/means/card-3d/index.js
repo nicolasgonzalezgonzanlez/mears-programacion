@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import { Card3d } from 'components/means/card-3d/index'
+import { Card3dComponent } from 'components/means/card-3d/index'
 
-export default function Home() {
+export default function Card3d() {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ export default function Home() {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Head>
-      <Card3d />
+      <Card3dComponent />
     </>
   )
 }

@@ -11,7 +11,7 @@ import {
   ControlButtons,
   ButtonSize,
 } from './styles'
-export const Card3d = () => {
+export const Card3dComponent = () => {
   useEffect(() => {
     console.log('hola')
     const Card = document.getElementById('card')
