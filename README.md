@@ -1,6 +1,13 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# learn
 
-- Este proyecto usa eslit y prettier, para asegurarme de que siempre se utilice la misma confirguracion lint-staged https://github.com/okonet/lint-staged#readme
+#### (this project was created for to show my abilities)
 
-tecnologias:
-styled-components
+### this project use eslit y prettier, to ensure the same settings are always used
+
+- [lint-staged](https://github.com/okonet/lint-staged#readme)
+
+## Technologies
+
+- [React](https://reactjs.org/)
+- [styled-components](https://styled-components.com/)
+- [Next.js](https://nextjs.org/)

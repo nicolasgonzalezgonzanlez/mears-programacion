@@ -12,7 +12,7 @@ export const Category = () => {
         title: 'Card 3D',
         urlRepo:
           'https://github.com/nicolasgonzalezgonzanlez/mears-programacion',
-        urlExample: 'recursos/card-3d',
+        urlExample: 'means/card-3d',
       },
     ])
   }, [])

@@ -5,7 +5,7 @@ export const Link = styled.a`
   color: #fff;
 `
 export const FooterComponent = styled.footer`
-  background: #6165d7;
+  background: #5179bb;
   color: white;
   min-height: 200px;
 `
