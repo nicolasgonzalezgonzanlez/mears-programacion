@@ -1,6 +1,8 @@
 # learn
 
-#### (this project was created for to show my abilities)
+> this project was created for to show my abilities
+
+### [project](https://mears-programacion.vercel.app/) deploy
 
 ### this project use eslit y prettier, to ensure the same settings are always used
 
