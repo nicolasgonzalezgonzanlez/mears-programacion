@@ -70,9 +70,8 @@ export const Circle = styled.div`
 `
 export const ControlButtons = styled.div`
   display: flex;
-
   @media ${breakpoints.xs}, ${breakpoints.sm} {
-    flex-direction: column;
+    flex-direction: row;
   }
   @media ${breakpoints.md}, ${breakpoints.lg}, ${breakpoints.xl} {
     justify-content: space-between;

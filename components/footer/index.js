@@ -5,6 +5,11 @@ import {
   Section,
   Link,
   Copyright,
+  Image,
+  ContentImage,
+  ContentText,
+  SectionContent,
+  Title,
 } from './styles'
 import { FiGithub } from 'react-icons/fi'
 import { AiFillLinkedin } from 'react-icons/ai'
@@ -26,13 +31,22 @@ export const Footer = () => (
       </Link>
     </Section>
     <Container>
-      <Content>
-        Sobre mí <br />
-        <br />
-        Apasionado desarrollador frontend, responsable, creativo y dinámico, con
-        facilidad de adaptación y capacidad de trabajar en equipo. Busco
-        aprender constantemente y resolver desafíos cada vez más complejos.
-      </Content>
+      <SectionContent>
+        <ContentImage>
+          <Image src="/nico.jpg" />
+        </ContentImage>
+        <ContentText>
+          <Title>Sobre mí</Title>
+          <Content>
+            Soy un apasionado desarrollador full stack, con orientación
+            frontend. Amante de ♥ JAVASCRIPT, enamorado de entender el ¿por qué?
+            de las cosas y fascinado por compartir mis conocimientos. Busco
+            aprender constantemente, desafiarme a mí mismo y resolver desafíos
+            cada vez más complejos. Me considero una persona responsable,
+            creativa y dinámica.
+          </Content>
+        </ContentText>
+      </SectionContent>
     </Container>
     <Copyright>
       <Content>© Nicolas Gonzalez</Content>

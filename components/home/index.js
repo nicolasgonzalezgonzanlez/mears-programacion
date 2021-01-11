@@ -14,6 +14,13 @@ export const Category = () => {
           'https://github.com/nicolasgonzalezgonzanlez/mears-programacion',
         urlExample: 'means/card-3d',
       },
+      {
+        srcImage: '/gifs/innovative.png',
+        title: 'homepage-innovative',
+        urlRepo:
+          'https://github.com/nicolasgonzalezgonzanlez/mears-programacion',
+        urlExample: 'means/homepage-innovative',
+      },
     ])
   }, [])
 
