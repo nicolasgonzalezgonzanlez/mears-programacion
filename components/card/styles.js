@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import ImageNext from 'next/image'
 
 export const CardContainer = styled.div`
   padding: 20px;
@@ -13,7 +14,7 @@ export const CardAction = styled.div`
   justify-content: space-between;
   margin-top: 20px;
 `
-export const Image = styled.img`
+export const Image = styled(ImageNext)`
   width: 100%;
   padding-bottom: 20px;
 `
@@ -23,7 +24,7 @@ export const Title = styled.span`
 `
 export const Button = styled.button`
   height: 35px;
-  width: 35%;
+  width: 100%;
   border: none;
   background: #a77ff8;
   color: white;
@@ -32,4 +33,5 @@ export const Button = styled.button`
 export const Link = styled.a`
   text-decoration: none;
   color: #fff;
+  width: 100%;
 `

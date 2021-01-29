@@ -1,76 +1,76 @@
 import {
-  Container,
-  Header,
-  Navigation,
-  Search,
+  ContainerHomePage,
+  HeaderHomePage,
+  NavigationHomePage,
+  SearchHomePage,
   ContentHomePage,
-  ContentText,
-  ContentImage,
-  Text,
-  Title,
-  Black,
-  Image,
-  ContentSection,
-  Section,
-  Icon,
-  SectionText,
+  ContentTextHomePage,
+  ContentImageHomePage,
+  TextHomePage,
+  TitleHomePage,
+  BlackHomePage,
+  ImageHomePage,
+  ContentSectionHomePage,
+  SectionHomePage,
+  IconHomePage,
+  SectionTextHomePage,
 } from './styles'
 export const HomePageInnovativeComponent = () => (
   <>
-    <Container>
-      <Header>
-        <Navigation>Home</Navigation>
-        <Navigation>Team</Navigation>
-        <Navigation>Login</Navigation>
-        <Search type="text" />
-      </Header>
+    <ContainerHomePage>
+      <HeaderHomePage>
+        <NavigationHomePage>Home</NavigationHomePage>
+        <NavigationHomePage>Team</NavigationHomePage>
+        <NavigationHomePage>Login</NavigationHomePage>
+        <SearchHomePage type="text" />
+      </HeaderHomePage>
       <ContentHomePage>
-        <ContentText>
-          <Title>
-            <Black>New</Black> & <br />
+        <ContentTextHomePage>
+          <TitleHomePage>
+            <BlackHomePage>New</BlackHomePage> & <br />
             innovative <br />
-            <Black>ideas</Black>
-          </Title>
-          <Text color="#ffffff">
+            <BlackHomePage>ideas</BlackHomePage>
+          </TitleHomePage>
+          <TextHomePage color="#ffffff">
             Lorem ipsum dolor sit amet, elit, sed diam nonummy nibh euismod
             tincidunt ut laoreet
-          </Text>
-          <Search type="text" />
-        </ContentText>
-        <ContentImage>
-          <Image src="/recursos/homePage/parallax.png" />
-        </ContentImage>
+          </TextHomePage>
+          <SearchHomePage type="text" />
+        </ContentTextHomePage>
+        <ContentImageHomePage>
+          <ImageHomePage src="/recursos/homePage/parallax.png" />
+        </ContentImageHomePage>
       </ContentHomePage>
-    </Container>
-    <ContentSection>
-      <Section color="#ff8192">
-        <Icon src="/recursos/homePage/icons/cinema.svg" />
-        <SectionText>
-          <Text color="#ffffff">Lorem ipsum</Text>
-          <Text color="#ffffff">
+    </ContainerHomePage>
+    <ContentSectionHomePage>
+      <SectionHomePage color="#ff8192">
+        <IconHomePage src="/recursos/homePage/icons/cinema.svg" />
+        <SectionTextHomePage>
+          <TextHomePage color="#ffffff">Lorem ipsum</TextHomePage>
+          <TextHomePage color="#ffffff">
             Lorem ipsum dolor sit amet, consectetuer tincidunt ut laoreet
-          </Text>
-        </SectionText>
-      </Section>
-      <Section color="#db9e55">
-        <Icon src="/recursos/homePage/icons/comment.svg" />
-        <SectionText>
-          <Text color="#ffffff">Lorem ipsum</Text>
-          <Text color="#ffffff">
+          </TextHomePage>
+        </SectionTextHomePage>
+      </SectionHomePage>
+      <SectionHomePage color="#db9e55">
+        <IconHomePage src="/recursos/homePage/icons/comment.svg" />
+        <SectionTextHomePage>
+          <TextHomePage color="#ffffff">Lorem ipsum</TextHomePage>
+          <TextHomePage color="#ffffff">
             Lorem ipsum dolor sit amet, consectetuer tincidunt ut laoreet
-          </Text>
-        </SectionText>
-      </Section>
-      <Section color="#ffffff">
-        <Icon src="/recursos/homePage/icons/ribbon.svg" />
-        <SectionText>
-          <Text>Lorem ipsum</Text>
-          <Text>
+          </TextHomePage>
+        </SectionTextHomePage>
+      </SectionHomePage>
+      <SectionHomePage color="#ffffff">
+        <IconHomePage src="/recursos/homePage/icons/ribbon.svg" />
+        <SectionTextHomePage>
+          <TextHomePage>HomePageLorem ipsum</TextHomePage>
+          <TextHomePage>
             Lorem ipsum dolor sit amet, consectetuer tincidunt ut laoreet
-          </Text>
-        </SectionText>
-      </Section>
-    </ContentSection>
-    <Image src="/recursos/homePage/example.jpg" />
+          </TextHomePage>
+        </SectionTextHomePage>
+      </SectionHomePage>
+    </ContentSectionHomePage>
+    <ImageHomePage src="/recursos/homePage/example.jpg" />
   </>
 )

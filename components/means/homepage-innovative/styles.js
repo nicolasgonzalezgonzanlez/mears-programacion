@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 import { breakpoints } from 'global-css/brackpoints'
 
-export const Container = styled.div`
+export const ContainerHomePage = styled.div`
   background: rgb(75, 132, 188);
   background: linear-gradient(
     90deg,
@@ -11,20 +11,25 @@ export const Container = styled.div`
   min-height: 500px;
 `
 
-export const Header = styled.div`
+export const HeaderHomePage = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
 `
-export const Navigation = styled.a`
+export const NavigationHomePage = styled.a`
   padding: 20px;
   color: white;
 `
-export const Search = styled.input`
+export const SearchHomePage = styled.input`
   background: none;
   border: 2px solid white;
   height: 30px;
   border-radius: 40px;
+  color: white;
+  padding-left: 10px;
+  &:focus {
+    outline: none;
+  }
 `
 
 export const ContentHomePage = styled.div`
@@ -36,7 +41,7 @@ export const ContentHomePage = styled.div`
     flex-flow: column-reverse;
   }
 `
-export const ContentText = styled.div`
+export const ContentTextHomePage = styled.div`
   @media ${breakpoints.xs} {
     padding-left: 3vh;
   }
@@ -47,19 +52,19 @@ export const ContentText = styled.div`
     padding-left: 10vh;
   }
 `
-export const ContentImage = styled.div``
-export const Image = styled.img`
+export const ContentImageHomePage = styled.div``
+export const ImageHomePage = styled.img`
   width: 100%;
 `
 
-export const ContentSection = styled.div`
+export const ContentSectionHomePage = styled.div`
   display: flex;
   justify-content: space-between;
   @media ${breakpoints.xs}, ${breakpoints.sm} {
     flex-direction: column;
   }
 `
-export const Section = styled.div`
+export const SectionHomePage = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -73,16 +78,16 @@ export const Section = styled.div`
       }
     `}
 `
-export const SectionText = styled.div`
+export const SectionTextHomePage = styled.div`
   margin-right: 15px;
 `
-export const Icon = styled.img`
+export const IconHomePage = styled.img`
   height: 50px;
   margin-right: 20px;
 `
 
-export const Title = styled.h1`
-  color: white;
+export const TitleHomePage = styled.h1`
+  color: #ff0000;
   font-weight: 100;
   @media ${breakpoints.xl} {
     font-size: 4.5rem;
@@ -94,8 +99,8 @@ export const Title = styled.h1`
     font-size: 3.5rem;
   }
 `
-export const Black = styled.strong``
-export const Text = styled.p`
+export const BlackHomePage = styled.strong``
+export const TextHomePage = styled.p`
   ${({ color }) =>
     color &&
     css`
