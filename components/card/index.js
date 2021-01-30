@@ -12,7 +12,13 @@ import {
 export const Card = ({ srcImage, title, urlRepo, urlExample }) => (
   <CardContainer>
     <CardArea>
-      <Image src={srcImage} />
+      <Image
+        src={srcImage}
+        width={500}
+        height={300}
+        alt={`image-${title}`}
+        layout="responsive"
+      />
       <Title>{title}</Title>
     </CardArea>
     <CardAction>
@@ -22,7 +28,9 @@ export const Card = ({ srcImage, title, urlRepo, urlExample }) => (
         </Link>
       </Button>
       <LinkNext href={urlExample}>
-        <Button>Example</Button>
+        <Link>
+          <Button>Example</Button>
+        </Link>
       </LinkNext>
     </CardAction>
   </CardContainer>
