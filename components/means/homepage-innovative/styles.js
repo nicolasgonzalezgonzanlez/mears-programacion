@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import { breakpoints } from 'global-css/brackpoints'
 
 export const ContainerHomePage = styled.div`
@@ -70,13 +70,7 @@ export const SectionHomePage = styled.div`
   align-items: center;
   width: 100%;
   min-height: 200px;
-  ${({ color }) =>
-    color &&
-    css`
-       {
-        background: ${color};
-      }
-    `}
+  background: ${(props) => props.color || 'palevioletred'};
 `
 export const SectionTextHomePage = styled.div`
   margin-right: 15px;
@@ -87,7 +81,7 @@ export const IconHomePage = styled.img`
 `
 
 export const TitleHomePage = styled.h1`
-  color: #ff0000;
+  color: #fff;
   font-weight: 100;
   @media ${breakpoints.xl} {
     font-size: 4.5rem;
@@ -101,11 +95,5 @@ export const TitleHomePage = styled.h1`
 `
 export const BlackHomePage = styled.strong``
 export const TextHomePage = styled.p`
-  ${({ color }) =>
-    color &&
-    css`
-       {
-        color: ${color};
-      }
-    `}
+  color: ${(props) => props.color || '#000000'}; ;
 `

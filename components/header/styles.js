@@ -15,10 +15,10 @@ export const Container = styled.div`
 `
 export const Image = styled(ImageNext)`
   border-radius: 60px;
-  margin-right: 20px;
 `
 export const Title = styled.p`
   color: #9097a0;
+  margin-left: 20px;
 `
 export const Link = styled.a`
   text-decoration: none;

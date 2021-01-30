@@ -7,13 +7,7 @@ import { RiPagesLine } from 'react-icons/ri'
 export const Menu = () => (
   <Header>
     <Container>
-      <Image
-        src="/nico.jpg"
-        width={60}
-        height={60}
-        alt="Nicolas Gonzalez"
-        layout="responsive"
-      />
+      <Image src="/nico.jpg" width={60} height={60} alt="Nicolas Gonzalez" />
       <Title>Nicolas Gonzalez</Title>
     </Container>
 
